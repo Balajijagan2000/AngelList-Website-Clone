@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project</title>
+
+<!--CSS part-->
+
+<style>
+
+body {
+	border-bottom:1px solid lightgrey;
+	
+	
+	height:55px;
+	
+	
+	
+}
+img.aimg {
+	height:50px;
+	width:38px;
+}
+
+a.startups {
+	color:lightgrey;
+	font-size:13px;
+	text-decoration:none;
+	position:relative;
+	top:-22px;
+	margin-left:20px;
+	text-height:5px;
+}
+a.rec {
+	color:lightgrey;
+	font-size:13px;
+	text-decoration:none;
+	position:relative;
+	top:-22px;
+	margin-left:20px;
+	text-height:5px;
+}
+
+a.invest {
+	color:lightgrey;
+	font-size:13px;
+	text-decoration:none;
+	position:relative;
+	top:-22px;
+	margin-left:20px;
+	text-height:5px;
+}
+a.blog {
+	color:lightgrey;
+	font-size:13px;
+	text-decoration:none;
+	position:relative;
+	top:-22px;
+	margin-left:20px;
+	text-height:5px;
+}
+
+.dropbtn {
+  background-color: white;
+  color: lightgrey;
+  padding: 16px;
+  font-size: 13px;
+  margin-left:20px;
+  border: none;
+  position:relative;
+  top:-22px;
+  
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn { color: #999; background-color: lightgrey; }
+
+input[type=text] {
+  
+  border:none;
+  outline:none;
+  width: 10%;
+  padding: 12px 20px;
+  margin-left: 800px;
+  position:relative;
+  top:-63px;
+  
+  
+  
+}
+input.search {
+	color:lightgrey;
+ }
+
+a.join {
+	color:blue;
+	font-size:14px;
+	text-decoration:none;
+	position:relative;
+	top:-92px;
+	margin-left:1100px;
+	text-height:5px;
+}
+a.login {
+	color:blue;
+	font-size:14px;
+	text-decoration:none;
+	position:relative;
+	top:-92px;
+	margin-left:25px;
+	text-height:5px;
+}
+img.searchimg {
+	
+	
+	
+	position:relative;
+	top:-125px;
+	margin-left:792px;
+	
+}
+.header {
+	
+	padding-left:185px;
+	
+	
+}
+.sub {
+	
+	font-size: 14px;
+    line-height: 2;
+    font-weight: 500
+	border-style:solid;
+    background-color: #385075;
+    color: #fff;
+    margin-top: 0px;
+	margin-left:200px;
+	margin-right:200px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 3px;
+	position:relative;
+	top:-50px;
+	
+}
+img.cimg {
+	width:35px;
+	height:35px;
+	position:relative;
+	top:10px;
+	
+}	
+h2.head2 {
+	font-size:32px;
+	text-align:center;
+	
+	margin-top:20px;
+	}
+
+h1.H1 {
+	font-size:62px;
+	text-align:center;
+	margin-top:20px;
+}
+h1.head1 {
+	font-size:62px;
+	text-align:center;
+	margin-top:50px;
+	position:relative;
+	top:-40px;
+}
+h3.head3 {
+	font-size:22px;
+	text-weight:10%;
+	text-align:center;
+	text-style:normal;
+	position:relative;
+	top:-60px;
+	
+}
+h4.head4 {
+	font-size:22px;
+	text-weight:10%;
+	text-align:center;
+	text-style:normal;
+	position:relative;
+	top:-60px;
+	
+}
+
+#heading1 {
+	font-size:18px;
+	
+	padding-left:180px;
+	text-style:normal;
+	position:relative;
+	top:-60px;
+}
+
+div h1 img {
+	height:40px;
+	width:40px;
+	position:relative;
+	top:10px;
+	left:70px;
+}
+p.para1 {
+	width:21%;
+	position:relative;
+	padding-left:180px;
+	top:-45px;
+	
+}
+.fstj  {
+	text-decoration:none;
+	font-size: 14px;
+    line-height: 2;
+    border-style:solid;
+    background-color: #0f6fff;
+    color: #fff;
+    margin-top: 0px;
+	margin-left:180px;
+	margin-right:1100px;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	position:relative;
+	top:-50px;
+	
+}
+
+
+
+#heading2 {
+	font-size:18px;
+	
+	padding-left:600px;
+	text-style:normal;
+	position:relative;
+	top:-255px;
+}
+
+
+p.para2 {
+	width:21%;
+	position:relative;
+	padding-left:600px;
+	top:-250px;
+	
+}
+.iv  {
+	text-decoration:none;
+	font-size: 14px;
+    line-height: 2;
+    border-style:solid;
+    background-color: #4139a7;
+    color: #fff;
+    margin-top: 0px;
+	margin-left:600px;
+	margin-right:700px;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	position:relative;
+	top:-245px;
+	
+}
+
+#heading3 {
+	font-size:18px;
+	
+	padding-left:1000px;
+	text-style:normal;
+	position:relative;
+	top:-450px;
+}
+
+
+p.para3 {
+	width:21%;
+	position:relative;
+	padding-left:1000px;
+	top:-445px;
+	
+}
+.ep {
+	text-decoration:none;
+	font-size: 14px;
+    line-height: 2;
+    border-style:solid;
+    background-color: #cc4d29;
+    color: #fff;
+    margin-top: 0px;
+	margin-left:1000px;
+	margin-right:325px;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	position:relative;
+	top:-440px;
+	
+}
+
+h.at {
+	padding-left:180px;
+	position:relative;
+	
+	top:-350px;
+}
+
+.gc {
+	padding-left:180px;
+	position:relative;
+	top:-350px;
+	font-size:58px;
+}
+.para4 {
+	font-size:22px;
+	width:30%;
+	padding-left:180px;
+	position:relative;
+	top:-350px;
+	
+}
+.talk {
+	padding-left:180px;
+	position:relative;
+	top:-350px;
+	
+}
+.para5 {
+	font-size:14px;
+	width:10%;
+	padding-left:180px;
+	position:relative;
+	top:-350px;
+}	
+	
+.st {
+	padding-left:450px;
+	position:relative;
+	top:-468px;
+	
+}
+.para6 {
+	font-size:14px;
+	width:10%;
+	padding-left:450px;
+	position:relative;
+	top:-464px;
+}
+
+.imgclass {
+
+	
+	padding-left:680px;
+	position:relative;
+	height:480px;
+	top:-850px;
+	
+	
+}
+
+.fstj1  {
+	text-decoration:none;
+	font-size: 14px;
+    line-height: 2;
+    border-style:solid;
+    background-color: #0f6fff;
+    color: #fff;
+    margin-top: 0px;
+	margin-left:180px;
+	margin-right:1100px;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	position:relative;
+	top:-900px;
+	
+}
+
+.pj {
+	padding-left:450px;
+	position:relative;
+	top:-940px;
+	color:blue;
+	
+	}
+	
+p.para7 {
+	margin-left:180px;
+	position:relative;
+	top:-750px;
+	font-size:28px;
+	text-align:center;
+	position:relative;
+	left:-100px;
+	
+
+}	
+img.imgclass2 {
+		
+    margin-left:160px;
+	position:relative;
+	top:-750px;
+}
+
+#section1 {
+	background-color:black;
+	text-align:center;
+	color:white;
+	font-size:22px;
+	margin-left:175px;
+	width:80%;
+	padding:10px;
+	padding-bottom:50px;
+	border-radius:8px;
+	position:relative;
+	top:-700px;
+
+
+	
+	
+	}
+
+a.pjf {
+	border-style:solid;
+	border:8px;
+	
+	text-decoration:none;
+	background-color:#0f6fff;
+	color:white;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	margin-left:400px;
+	margin-right:400px;
+	border:visible;
+}
+#section2 {
+	background-color:lightgrey;
+	text-align:left;
+	color:black;
+	
+	margin-left:175px;
+	width:80%;
+	padding:10px;
+	padding-bottom:50px;
+	border-radius:8px;
+	position:relative;
+	top:-600px;
+	
+}	
+	a.ai {
+	border-style:solid;
+	border:8px;
+	
+	text-decoration:none;
+	background-color:teal;
+	color:white;
+	height:30px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+    border-radius: 8px;
+	margin-left:400px;
+	margin-right:400px;
+	border:visible;
+}
+</style>
+</head>
+<body>
+<header class="header">
+<a href="https://angel.co/"><img src="image1.png" class="aimg"/></a>
+<a href="https://angel.co/jobs" class="startups">STARTUP JOBS</a>
+<a href="https://angel.co/jobs" class="rec">RECRUIT</a>
+<a href="https://angel.co/india" class="invest">INVEST</a>
+<a href="https://angel.co/blog" class="blog">BLOG</a>
+
+
+<div class="dropdown">
+  <button class="dropbtn">MORE</button>
+  <div class="dropdown-content">
+    <a href="https://angel.co/india/angel-funds">Venture Funds</a>
+    <a href="https://angel.co/companies">Companies</a>
+    <a href="https://angel.co/track">Track</a>
+	<a href="https://angel.co/salaries">Salaries</a>
+	<a href="https://angel.co/help">Help</a>
+  </div>
+</div>
+<div class="searchbox">
+<form>
+  
+  <input type="text" id="search" placeholder="SEARCH">
+  
+  
+
+</form>
+</div>
+ <a href="https://angel.co/join?source=homepage&source_content=global_header_join_text" class="join">Join</a>
+ <a href="https://angel.co/login" class="login">Log In</a>
+<img src="search.png" class="searchimg"/>
+
+
+</header>
+
+<div class="subs">
+<a href="https://angel.co/job-collections/startups-fighting-to-flatten-the-covid-19-curve" class="sub">See how startups are fighting to flatten the curve against COVID-19-></a>
+ <div class="cont">
+	<h2 class="head2"><img src="image1.png" class="cimg"/>AngelList</h2>
+ </div>
+	<div class="subs1">
+		<h1 class="H1">Join the world’s largest</h1>
+	
+	
+	
+	<h1 class="head1">startup community</h1>
+	<h3 class="head3">Experience the startup ecosystem — invest in startups, research the</h3>
+	<h4 class="head4">fastest-growing companies, and find a job you love.</h4>
+	</div>
+</div>
+
+
+<div>
+<h1 id="heading1">AngelList Talent<img src="1.png" /></h1>
+<p class="para1">Apply privately to 130,000+ tech & startup jobs with one application. See salary and equity upfront.
+ </p>
+<a href="https://angel.co/jobs/signup?source=homepage" class="fstj">Find startup jobs</a>
+
+<h1 id="heading2">AngelList Venture<img src="2.png" /></h1>
+<p class="para2">Over $1 billion deployed alongside leading venture fund managers with 36% of all top-tier U.S. VC deals funded on AngelList.
+ </p>
+<a href="https://angel.co/v/venture/invest" class="iv">Apply to be an inventor</a>
+
+
+<h1 id="heading3">Product Hunt<img src="3.png" /></h1>
+<p class="para3">The next big thing in tech launches every day. A friendly community of millions of makers & early adopters awaits.
+ </p>
+<a href="https://producthunt.com/" class="ep">Explore Products</a>
+</div>
+
+
+<div>
+<h class="at"><strong>AngelList Talent</strong></h>
+<h1 class="gc">Grow your career</h1>
+<p class="para4">Twitch, Stripe, and over 100,000 startups of all sizes have used AngelList to hire people like you. Already know where you want to be? You can apply directly—and privately—to early stage startups and industry leaders alike.</p>
+
+<h class="talk"><b>Talk directly to founders</b></h>
+<p class="para5">Speak directly to founders and hiring managers. No third party recruiters allowed.</p>
+
+<h class="st"><b>See salary & equity upfront</b></h>
+<p class="para6">View salary and stock option details before you apply to a job.</p>
+
+<img src="4.png" class="imgclass"/>
+
+<a href="https://angel.co/jobs/signup?source=homepage" class="fstj1">Find startup jobs</a>
+<a href="https://angel.co/recruiting" class="pj">Post a job</a>
+
+</div>
+
+<section >
+<p class="para7"><b>Explore over 2 million tech and startup job-opportunities</b></p>
+<img src="5.png" class="imgclass2" />
+</section>
+
+<section id="section1">
+<p class="p1">1000,100+</p>
+<p>of the world's top startups, from seed to post-IPO, build teams on AngelList.</p>
+<p>Post jobs, find candidates, and manage your talent pipeline with AngelList's complete hiring toolkit.</p>
+<p>High-quality candidates
+2,300,000+ candidates including 750,000+ developers, 170,000+ designers, and thousands more every day.</p>
+<p>Free tools to build your team
+Build your employer brand, post jobs, take applications and manage your candidate pipeline - all for free.</p>
+<a href="https://angel.co/recruiting" class="pjf">Post Jobs For Free</a>
+</section><section id="section2">
+<p style="font-size:14px;">AngelList Venture</p>
+<p style="font-size:32px" ><b>The platform for venture investing</b></p>
+<p style="font-size:18px;"><b>Invest alongside top venture investors. Hundreds of angels and VCs rely on AngelList. Whether you’re starting and scaling your own fund, or investing alongside established managers, we’ll help you grow as a top investor.</b></p>
+<p style="font-size:16px">$1,000,000,000+
+flows through AngelList into thousands of investments.
+
+36% of top-tier U.S. VC deals
+were funded by investors through AngelList Venture.</p>
+<a href="https://angel.co/v/venture/invest" class="ai">Apply To Be An Investor</a>
+<a href="https://angel.co/v/venture/lead">Start a Fund or Syndicate</a> 
+</section>
+</body>
+
+</html>
